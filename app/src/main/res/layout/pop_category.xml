@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtCloseCategory"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="@string/x"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/circlebackground"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilCatName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/etCatName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_edittext"
+                android:hint="@string/category_name"
+                android:textAlignment="center"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="18dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey2"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txtCatGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tilCatName"
+            android:text="@string/txtGoal"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilCatGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            android:layout_below="@id/txtCatGoal"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/etCatGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_edittext"
+                android:hint="@string/category_goal"
+                android:textAlignment="center"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="18dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey2"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="ShowCategoryPopup"
+            android:id="@+id/btnCreateCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="10dp"
+            android:layout_below="@+id/tilCatGoal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_category"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:textSize="20sp"/>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>

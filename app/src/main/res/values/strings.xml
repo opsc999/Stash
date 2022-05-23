@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Stash Task2</string>
+    <string name="stash">Stash</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">New User? <b>Register here.</b></string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="signup">or sign in with</string>
+    <string name="logoDescription">Image Logo</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="email">Email</string>
+    <string name="register_here">Register here</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registerbtn">Register</string>
+    <string name="create_category">Create Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="create_collection">Create Collection</string>
+    <string name="collection_name">Collection Name</string>
+    <string name="x">X</string>
+    <string name="view_all_items">View All Items</string>
+    <string name="category_goal">Category Goal</string>
+    <string name="txtGoal">Enter the goal of items you want to collect in the category</string>
+    <string name="item_name">Item Name</string>
+    <string name="add_item">Add Item</string>
+    <string name="imgItemText">Take a picture or Choose an image</string>
+    <string name="categoryGoal">Category Goal:</string>
+</resources>
