@@ -29,9 +29,9 @@
             android:id="@+id/CatGoal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="22sp"
             android:layout_toStartOf="@+id/catGoalText"
-            android:text="@string/categoryGoal"/>
+            android:text="@string/categoryGoal"
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/catGoalText"
@@ -46,8 +46,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
-            />
+            android:layout_marginStart="10dp" />
 
     </RelativeLayout>
 

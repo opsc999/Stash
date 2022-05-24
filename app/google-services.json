@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908127931990",
+    "project_id": "stash-a0642",
+    "storage_bucket": "stash-a0642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908127931990:android:1ad05d2f8aa076514075f7",
+        "android_client_info": {
+          "package_name": "com.example.stashtask2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908127931990-kbp3q32j1068rvdooj6ubd276u4jvnlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq-U0z3qFrDE2Cy0UEIv_KLIhPDGL97jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908127931990-kbp3q32j1068rvdooj6ubd276u4jvnlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
